@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/*ESTILIZAÇÃO DO TOPO*/
+.b-topo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo {
+    position: relative;
+    margin: -450px;
+    color: #D6000D;
+    font-size: 15pt;
+    text-decoration: inherit
+}
+.titulo span {
+    color: #000;
+}
+.b-nav {
+    position: relative;
+    margin-right: -450px;
+    width: auto;
+}
+.b-nav ul {
+    list-style: none;
+}
+
+.b-nav ul li {
+    display: inline;
+    padding: 20px;
+    font-size: 15px
+}
+
+.b-nav ul li button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #D6000D;
+    color: #fff;
+}
+.b-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px
+}
+
+/*FIM DA ESTILIZAÇÃO*/
+
+.topo-conteudo {
+    position: relative;
+    top: 35px;
+    height: auto;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 150px 0 150px;
+}
+
+.dizeres {
+    position: relative;
+    width: auto;
+}
+
+.dizeres p {
+    position: relative;
+    font-size: 10pt;
+
+}
+
+.dizeres h2 {
+    position: relative;
+    font-size: 28pt;
+    color: #D6000D;
+
+}
+
+.dizeres button {
+    margin-top: 25px;
+    width: 250px;
+    height: 40px;
+    background: #D6000D;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.servico {
+    position: relative;
+    top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista ol {
+    list-style: none;
+    color: red
+}
+
+.lista {
+    position: relative;
+    margin-right: 150px;
+}
+
+.lista ol li img {
+    margin-right: 25px
+}
+
+.lista ol li {
+    padding: 5px
+}
+
+.txt_lista {
+    margin-top: 50px
+}
+
+.txt_lista p {
+    margin-bottom: 20px
+}
+
+.txt_lista input {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(185, 185, 185);
+    color: #fff;
+}
+
+.txt_lista button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #D6000D;
+    color: #fff;
+    margin-left: 10px
+}
+
+.cards {
+    position: relative;
+    top: 150px;
+    height: auto;
+}
+
+.card-2 {
+    margin: 250px 90px 0 90px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.cartao-1 {
+    width: auto;
+    display: inline;
+    padding: 20px;
+    height: 150px;
+    text-align: justify;
+    background: rgb(185, 185, 185);
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.txt_desc {
+    width: 350px;
+    font-family: fantasy;
+
+}
+
+.txt_desc p,
+h3 {
+    font-family: arial;
+    margin-top: 5px;
+
+}
+
+.txt_desc h3 {
+    font-size: 22pt
+}
+
+.bola {
+    position: relative;
+    top: -20px;
+    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+    background: red;
+    border-radius: 50%
+}
+
+/*FIM DA ESTILIZAÇÃO*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    background: #000;
+    color: #fff;
+    height: 350px;
+}
+
+.f-card {
+    display: flex;
+    align-items: center;
+}
+.f-sobre {
+	width: 219px;
+    text-align: justify;
+    padding: 50px;
+}.f-sobre p{
+	position: relative;
+    top: 15px;
+}
+.f-codar {
+	width: 219px;
+    text-align: justify;
+    padding: 50px;
+}.f-codar p {
+	position: relative;
+    top: 20px;
+}.f-codar h1 {
+	font-size: 35pt;
+    font-style: italic;
+}
+.f-contato {
+	width: 219px;
+    position: relative;
+    text-align: justify;
+    padding: 50px;
+}.f-contato p {
+	position: relative;
+    top: 15px;
+    padding: 0;
+}
+.f-redes ul {
+    position: relative;
+    top: 20px;
+	list-style: none;
+    
+}.f-redes ul li {
+	display: inline;
+    padding: 10px;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width:768px){
+   /*ESTILIZAÇÃO DO MENU */
+
+    .b-topo {
+       
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .titulo {
+        position: relative;
+        top: -25px;
+        left: 300px;
+        color: #D6000D;
+        font-size: 15pt;
+        text-decoration: inherit
+    }
+    .b-nav {
+        position: relative;
+        right: 0px;
+        top: 30px;
+    }
+    .b-nav ul li button {
+        visibility: hidden;
+    }
+    /* FIM DA ESTILIZAÇÃO */
+
+    /*ESTILIZAR 1ª CONTEUDO */
+    .conteudo {
+        flex-wrap: wrap;
+    }
+    .dizeres {
+        top: 50px;
+        text-align: center;
+    }
+    .dizeres button {
+        margin-top: 25px;
+        width: 270px;
+    }
+   /*  FIM DA ESTILIZAÇÃO */
+
+   /* ESTILIZAÇÃO DOS SERVIÇOS */
+    
+.servico {
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.lista {
+    margin:auto;
+    width: 70%;
+    left: 20px;
+    top: 50px;
+}
+.lista ol li {
+    padding: 10px
+}
+.txt_lista input {
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(230, 228, 228);
+    color: #fff;
+}
+
+.txt_lista button {
+   height: 60px;
+    margin-left:0px;
+    margin-top: 20px;
+}
+
+.card-2 {
+    flex-wrap: wrap;
+}
+.cartao-1 {
+    width: 300px;
+    height: 100px;
+    background: rgb(231, 228, 228);
+    top: 35px;
+}
+.c-topo{
+    margin-bottom: 50px;
+}
+.txt_desc 
+h3 {
+    font-size: 14pt;
+
+}
+.txt_desc p
+ {    
+    font-size: 10pt;
+}
+.bola {
+    width: 90px;
+    height: 70px;
+}
+footer {
+    height: auto;
+   flex-wrap: wrap;
+}
+.f-card {
+    flex-wrap: wrap;
+}
+.f-contato,.f-codar ,.f-sobre ,.f-redes{
+	position: relative;
+    padding: 20px;
+}.f-contato,.f-sobre ,.f-redesm{
+	font-size:10pt ;
+}
+.f-codar {
+    width: auto;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}/*.f-codar p {
+	position: relative;
+    top: 20px;
+}.f-codar h1 {
+	font-size: 35pt;
+    font-style: italic;
+}
+.f-contato {
+	width: 219px;
+    position: relative;
+    text-align: justify;
+    padding: 50px;
+}.f-contato p {
+	position: relative;
+    top: 15px;
+    padding: 0;
+}
+}.f-redes ul li {
+	display: inline;
+    padding: 10px;
+} */
+.f-redes ul {
+    top: 10px;
+    
+
+}
+}
