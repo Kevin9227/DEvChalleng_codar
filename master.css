@@ -15,7 +15,7 @@
 .titulo {
     position: relative;
     margin: -450px;
-    color: #D6000D;
+    color: #bd010d;
     font-size: 15pt;
     text-decoration: inherit
 }
@@ -44,7 +44,7 @@
     border-radius: 10px;
     font-size: 20px;
     background: #D6000D;
-    color: #fff;
+    color: rgb(255, 253, 253);
 }
 .b-nav ul li a {
     text-decoration: none;
