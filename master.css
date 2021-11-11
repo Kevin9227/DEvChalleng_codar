@@ -46,6 +46,16 @@
     background: #D6000D;
     color: rgb(255, 253, 253);
 }
+.b-nav ul li button:hover {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #8f030c;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+}
 .b-nav ul li a {
     text-decoration: none;
     color: #000;
@@ -93,6 +103,19 @@
     color: #fff;
     border: none;
     border-radius: 10px;
+    
+
+}
+.dizeres button:hover {
+    margin-top: 25px;
+    width: 250px;
+    height: 40px;
+    background: #7a060e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
 
 }
 
